@@ -78,7 +78,7 @@ body {
   font-size: clamp(1rem, -.875rem + 3.033vw, 1.5rem);
 }
 
-.container .phone img:last-child {
+.container img:last-child {
   animation: shadow 5s ease-in-out infinite forwards;
 }
 
