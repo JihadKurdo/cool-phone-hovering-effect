@@ -1,4 +1,4 @@
-function timer() {
+function time() {
 
     let Number = Intl.NumberFormat("en-US", {
         minimumIntegerDigits: 2
@@ -8,7 +8,7 @@ function timer() {
 
     document.querySelector(".phone span").textContent = Number.format(date.getHours()) + ":" + Number.format(date.getMinutes()) + ":" + Number.format(date.getSeconds())
 
-    window.requestAnimationFrame(timer)
+    window.requestAnimationFrame(time)
 
 }
-timer()
+time()
